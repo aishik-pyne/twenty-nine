@@ -6,14 +6,9 @@ name: Python application
 on:
   push:
     branches: [ master ]
-    paths:
-      - 'src/core/'
-      - 'src/tests/'
   pull_request:
     branches: [ master ]
-    paths:
-      - 'src/core/'
-      - 'src/tests/'
+
 jobs:
   build:
     runs-on: ubuntu-latest
