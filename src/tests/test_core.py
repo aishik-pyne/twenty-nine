@@ -7,15 +7,6 @@ random.seed(0)
 
 class TestRound(unittest.TestCase):
 
-    player_decks_bid_start = [['S3', 'HK', 'C7', 'C3'],
-                              ['SK', 'H8', 'H6', 'SJ'],
-                              ['H2', 'CJ', 'S8', 'HA'],
-                              ['H5', 'S10', 'D8', 'D2'], ]
-    player_decks_game_start = [['S3', 'HK', 'C7', 'C3', 'CK', 'S4', 'S9', 'C6'],
-                               ['SK', 'H8', 'H6', 'SJ', 'CA', 'HQ', 'C4', 'D5'],
-                               ['H2', 'CJ', 'S8', 'HA', 'D3', 'HJ', 'D9', 'S2'],
-                               ['H5', 'S10', 'D8', 'D2', 'CQ', 'DJ', 'H4', 'C5'], ]
-
     def setUp(self):
         self.round = TNRoundState()
 
