@@ -12,7 +12,7 @@
     "flexboxgrid": "^6.3.1",
     "less": "^3.8.1",
     "less-loader": "^4.1.0",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.21",
     "vue": "^2.5.17"
   },
   "devDependencies": {
